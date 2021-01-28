@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './buildFlag.dart';
+import './norway_flag.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: SafeArea(
         child: Scaffold(
-          body: BuildFlag(),
+          body: NorwayFlag(),
         ),
       ),
     );
